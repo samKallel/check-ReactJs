@@ -1,12 +1,33 @@
+/* par defaut */
 .App {
   text-align: center;
 }
+/* taille des images des caroussels */
 .flower{
   height: 500px;
   
 }
+
 .cards{
   display: flex;
   justify-content: space-around;
   margin: 5%;
+}
+.des{
+  color:rgb(130, 14, 14);
+  font-weight:600;
+  font-size: x-large;
+  font-style: italic;
+}
+a {
+  color: white !important;
+  
+  }
+a:hover{
+  color:rgb(130, 14, 14) !important;
+}
+/* taille des images des cards */
+.miniat{
+  height: 50% !important;
+  width: 100% !important;
 }
