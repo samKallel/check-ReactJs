@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+.flower{
+  height: 500px;
+  
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
