@@ -7,18 +7,21 @@
   height: 500px;
   
 }
-
+/* mettre les cartes en display flex */
 .cards{
   display: flex;
   justify-content: space-around;
   margin: 5%;
+  padding-bottom: 0% !important;
 }
+/* couleur de la police de description */
 .des{
   color:rgb(130, 14, 14);
   font-weight:600;
   font-size: x-large;
   font-style: italic;
 }
+/* liens */
 a {
   color: white !important;
   
@@ -28,6 +31,65 @@ a:hover{
 }
 /* taille des images des cards */
 .miniat{
-  height: 50% !important;
-  width: 100% !important;
+  height: 40%;
+  width: 100%;
+}
+.cb{
+  margin: 40px;
+  margin-bottom: 0px;
+  /* padding: 6%px !important; */
+  
+}
+/* taille de limage de localisation */
+.gps{
+  height: 300px;
+  
+}
+/* taille du texteArea */
+.finput{
+  height: 150px !important;
+  width: 95%  !important;
+  margin: 2%;
+  margin-top: 2px;
+}
+/* taille mail et phone */
+.finput-mail{
+  width: 60% !important;
+  margin: 2%;
+  margin-top: 2px;
+}
+/* pour les label du form */
+.flabelm{
+  color: #ed1144;
+  font-size: large;
+  margin-right: 88%;  
+  margin-left: 2%;
+  
+}
+.flabelph{
+  font-size: large;
+  color: #db26de;
+  margin-right: 82%;  
+  margin-left: 1%;
+  
+}
+
+.flabelctact{
+  font-size: large;
+  color:rgb(140, 231, 60);
+  margin-right: 68%;
+  margin-left: 2%;
+}
+h2{
+  color: aqua;
+  text-align: start;
+  margin-left: 4%;
+}
+/* bouton validez */
+.btsubmit{
+  margin: 5%;
+  margin-bottom: 20px;  
+  display: flex;
+  justify-content: right;
+ 
 }
