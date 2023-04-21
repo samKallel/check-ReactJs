@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import { Nav, Navbar, Container, Carousel, Button,Card, Form } from 'react-bootstrap';
-
+import logo from "./favicon.ico"
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Container>
           <Navbar.Brand href="#home">
             <div className='iconnav'>
-            <img src="./favicon.ico" height={50} width={50}/>  
+            <img src={logo} height={50} width={50}/>  
             <h3> Club Picasso</h3>
             </div>
             </Navbar.Brand>
@@ -134,7 +134,7 @@ function App() {
       <Card.ImgOverlay>
         <Card.Title>
           <div className='ifofooter'>
-          <img src="./favicon.ico" height={50} width={50}/>
+          <img src={logo} height={50} width={50}/>
           Club Picasso 
           </div>
         </Card.Title>
